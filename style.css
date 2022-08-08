@@ -1,0 +1,254 @@
+* { /* CSS RESET - Reseta as configurações de página anterior antes de carregar a próxima */
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(97, 33, 33);
+}
+
+header {
+    background-color: rgb(74, 74, 74);
+    border: 3px solid rgb(255, 99, 99);
+    height: 230px; 
+    Margin: 0 auto;
+    margin-top: 70px;
+    background-image: url(img/splashart/4.webp);
+    background-size: 900px;
+    background-position: center;
+}
+
+.section_3x4 {
+
+    background-color: rgba(0, 0, 0, 0);
+    border: 3px solid rgb(255, 99, 99);
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+    background-image: url(img/user_3x4_logo.png);
+    background-size: 200px;
+    background-position: center;
+    
+    
+    
+}
+
+.nav_header_top_right_corner {
+  
+  background-color: #e1e1ea;
+  border: 3px solid rgb(255, 99, 99);
+  height: 45px;
+  margin-top: 10px;
+  margin-right: 15px;
+  float: right;
+
+
+  
+}
+
+.invisible_nav {
+
+  
+  /* border: rgb(255, 99, 99); */
+  height: 170px;
+  margin: 0 auto;
+
+
+}
+
+.section_menu_left {
+
+  background-color: rgb(74, 74, 74);
+  border: 3px solid rgb(255, 99, 99);
+  height: 130px;
+  margin-top: 15PX;
+  float: left;
+  background-image: url(img/splashart/2.png);
+  background-size: 500px;
+ background-position: center;
+}
+
+.section_menu_right {
+
+  background-color: rgb(74, 74, 74);
+  border: 3px solid rgb(255, 99, 99);
+  height: 130px;
+  margin-top: 15PX;
+  float: right;
+  background-image: url(img/splashart/5.png);
+  background-size: 800px;
+ background-position: center;
+}
+
+main {
+
+  border: 0px solid #000;
+  height: 450px;
+  margin: 0 auto;
+  background-color: rgb(74, 74, 74);
+}
+
+.aside_left {
+
+  background-color: rgb(135, 129, 129);
+  border: rgb(255, 99, 99);
+  height: 450px;
+  float: left;
+  background-image: url(img/HICARO.jpg);
+  background-size: 380px;
+  background-position: top;
+}
+
+.article_middle {
+
+  background-color: rgb(135, 129, 129);
+  float: left;
+  border: rgb(255, 99, 99);
+  height: 450px;
+  margin-left: 12px;
+
+}
+
+.aside_right {
+
+  background-color: rgb(135, 129, 129);
+  border: rgb(255, 99, 99);
+  height: 450px;
+  float: right;
+  background-image: url(img/KISSING\ CHINA.jpg);
+  background-size: 600px;
+  background-position: right;
+}
+
+.section_on_article_top_left_corner {
+ 
+  background-color: rgb(74, 74, 74);
+  border: rgb(255, 99, 99);
+  height: 150px;
+  float: left;
+  margin-left: 16px;
+  margin-top: 10px;
+  background-image: url(img/splashart/8.webp);
+  background-size: 400px;
+  background-position: center;
+
+}
+
+.section_on_article_top_right_corner {
+ 
+  background-color: rgb(74, 74, 74);
+  border: rgb(255, 99, 99);
+  height: 150px;
+  float: right;
+  margin-top: 10px;
+
+}
+
+.section_on_article_middle {
+
+  background-color: rgb(74, 74, 74);
+  border: rgb(255, 99, 99);
+  margin-top: 10px;
+  margin-left: 16px;
+  height: 100px;
+  float: left;
+  background-image: url(img/splashart/7.webp);
+  background-size: 400px;
+  background-position: center;
+
+}
+
+.nav_final {
+
+  background-color: #e1e1ea;
+  border: rgb(255, 99, 99);
+  height: 100px;
+  margin-top: 15px;
+  margin-left: 65px;
+  background-image: url(img/splashart/9.jpg);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -----------------------> ORGANIZAÇÃO RESPONSIVA <----------------------- */
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2-1 {width: 12%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-3-1 {width: 26%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-5-1 {width: 46.00%;}
+    .col-5-2 {width: 47.00%;}
+    .col-6 {width: 47.56%;}
+    .col-6-1 {width: 49.30%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 76%;}
+    .col-11 {width: 91.66%;}
+    .col-11-1 {width: 94.20%;}
+    .col-12 {width: 100%;}
+    
+    @media only screen and (max-width: 768px) {
+      /* For mobile phones: */
+      [class*="col-"] {
+        width: 100%;
+      }
+    
+      nav ul {
+        margin: 0;
+      }
+    
+      nav ul li {
+        margin: 0;
+      }
+    
+      nav ul li a {
+        font-size: 8px;
+      }
+    
+      aside, section {
+        float: none;
+      }
+    
+      footer{
+        display: block;
+        clear: both;
+      }
+    }
+
+    /* -----------------------> ORGANIZAÇÃO RESPONSIVA <----------------------- */
